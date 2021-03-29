@@ -1,6 +1,6 @@
 # Getting Started with React Youtube Video application
 
-http://gautam958.github.io/ReactyoutubeVideoApp/
+http://gautam958.github.io/reactyoutubevideoapp/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

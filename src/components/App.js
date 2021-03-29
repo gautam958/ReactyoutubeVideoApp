@@ -10,7 +10,7 @@ class App extends React.Component {
     state = { videos: [], selectedvideo: null }
 
     componentDidMount() {
-        this.onTermSubmit('buildings');
+        this.onTermSubmit('Happy Holi');
     }
 
     onTermSubmit = async (term) => {
@@ -29,7 +29,6 @@ class App extends React.Component {
     };
 
     onVideoSelect = (video) => {
-        // console.log('from the app!', video);
         this.setState({ selectedvideo: video });
     }
     render() {
@@ -47,7 +46,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
-                I have {this.state.videos.length} videos.
+                {this.state.videos.length} videos displayed .
             </div>
         )
     }
